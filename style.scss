@@ -5,7 +5,7 @@
 }
 
 :root {
-    --clr-dark: rgb(13, 17, 19);
+    --clr-dark: rgb(0, 0, 0);
     --clr-light: #fff;
     --clr-accent: rgb(222, 52, 0);
     --clr-accent-dark: rgb(163, 38, 0);
@@ -38,10 +38,9 @@ img {
 .btn {
     cursor: pointer;
     border: 0;
-    background: var(--clr-secondary);
+    background: var(--clr-light);
     border-radius: 100vw;
-
-    color: var(--clr-light);
+    color: var(--clr-dark);
     padding: .5em 1.5em;
     font-weight: bold;
 }
@@ -134,7 +133,7 @@ img {
     .streaming-info {
         margin: 1em 0;
         columns: 2;
-        column-rule: 1px solid rgba(255, 255, 255, .25);
+        column-rule: 1px solid rgba(23, 206, 32, 0.25);
         // agrega linea en medio de hover 
     }
 
@@ -150,7 +149,7 @@ img {
 }
 
 .background {
-    background: rgb(41, 50, 59);
+    background: rgb(17, 134, 95);
     position: absolute;
     top: 0;
     bottom: 0;
