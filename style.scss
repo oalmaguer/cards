@@ -28,7 +28,7 @@ h1,
 h2,
 h3,
 p {
-    color: #000;
+    color: rgb(255, 255, 255);
     margin: 0;
 }
 
@@ -37,6 +37,10 @@ p {
     text-align: center;
     margin: 30px;
 
+}
+
+.display-3 {
+    color: black;
 }
 
 .row {
@@ -83,7 +87,6 @@ img {
     right: 1em;
     z-index: 1000;
     font-size: 1.125rem;
-
     background: rgba(0, 0, 0, .65);
     padding: .5em .5em .75em;
     clip-path: polygon(100% 0%, 100% 100%, 50% 85%, 0 100%, 0 0);
