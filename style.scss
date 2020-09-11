@@ -5,7 +5,7 @@
 }
 
 :root {
-    --clr-dark: rgb(0, 0, 0);
+    --clr-dark: rgb(255, 255, 255);
     --clr-light: #fff;
     --clr-accent: rgb(222, 52, 0);
     --clr-accent-dark: rgb(163, 38, 0);
@@ -28,7 +28,20 @@ h1,
 h2,
 h3,
 p {
+    color: #000;
     margin: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.row {
+    margin-top: 8%;
+    width: 123%;
 }
 
 img {
@@ -40,7 +53,7 @@ img {
     border: 0;
     background: var(--clr-light);
     border-radius: 100vw;
-    color: var(--clr-dark);
+    color: #000;
     padding: .5em 1.5em;
     font-weight: bold;
 }
@@ -149,7 +162,7 @@ img {
 }
 
 .background {
-    background: rgb(17, 134, 95);
+    background: rgb(18, 153, 231);
     position: absolute;
     top: 0;
     bottom: 0;
